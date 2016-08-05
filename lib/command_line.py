@@ -41,6 +41,6 @@ def parse_command_line(cmdline):
         elif option == '--port':
             options['port'] = int(value)
         elif option == '--config':
-            options['config_file'] = value
+            options['config_path'] = value
 
     return options
